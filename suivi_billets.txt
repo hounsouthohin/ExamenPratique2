@@ -1,0 +1,4 @@
+Inscrire les billets au format suivant:
+    Billet #XX = status
+Exemple:
+    Billet #03 = complété
