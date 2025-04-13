@@ -4,6 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import BootstrapClient from './Composants/BootstrapClient';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import "./globals.css";
+import Header from './Composants/Header';
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,9 +25,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      
+        <Header/>
         {children}
       </body>
     </html>
