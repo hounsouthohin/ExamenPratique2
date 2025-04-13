@@ -1,28 +1,22 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React from "react";
 import MovieCard from "./MovieCard";
 
-export default function MovieDetails({ movieId }) {
-  const [movie, setMovie] = useState(null);
-
-  useEffect(() => {
-    fetch("http://localhost:5501/movies")
-      .then((res) => res.json())
-      .then((data) => {
-        const foundMovie = data.find((m) => m.id === parseInt(movieId));
-        setMovie(foundMovie);
-      })
-      .catch((err) => console.error("Erreur de chargement :", err));
-  }, [movieId]);
-
+export default function MovieDetails({ movie }) {
   if (!movie) return <p>Chargement du film...</p>;
 
   return (
-    <div className="movie-details">
-      <MovieCard movie={movie} />
+    <div className="movie-card">
+      
+        <img
+          src={movie.poster_path} 
+          alt={movie.title}
+          style={{ width: "100%", borderRadius: "10px" }}
+        />
+      <h2>{movie.title}</h2>
+      <p><strong>Duration:</strong> {movie.duration}</p>
+      <p><strong>Description:</strong> {movie.description}</p>
     </div>
   );
 }
-
-

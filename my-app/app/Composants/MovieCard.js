@@ -6,14 +6,17 @@ export default function MovieCard({ movie }) {
   if (movie.deleted) return null;
 
   return (
-    <div className="movie-card">
+    <div className="movie-card">  
       <Link href={`/Movie/${movie.id}`}>
-        <img
-          src={movie.poster_path} // l’URL est déjà complète
+      <button className="btn btn-primary">
+        details
+      </button>
+      </Link>
+      <img
+          src={movie.poster_path} 
           alt={movie.title}
           style={{ width: "100%", borderRadius: "10px" }}
         />
-      </Link>
       <h2>{movie.title}</h2>
       <p><strong>Duration:</strong> {movie.duration}</p>
       <p><strong>Description:</strong> {movie.description}</p>
