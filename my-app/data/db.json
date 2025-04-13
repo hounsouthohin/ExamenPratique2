@@ -1,0 +1,85 @@
+{
+    "movies": [
+      {
+        "id": 1,
+        "title": "The Shawshank Redemption",
+        "poster_path": "https://image.tmdb.org/t/p/w500/tmU7geKVybMWFQMYWUfN1YQaYd2.jpg",
+        "duration": "2h 22m",
+        "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+        "deleted": false
+      },
+      {
+        "id": 2,
+        "title": "The Godfather",
+        "poster_path": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolX1tVrjBB.jpg",
+        "duration": "2h 55m",
+        "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+        "deleted": false
+      },
+      {
+        "id": 3,
+        "title": "The Dark Knight",
+        "poster_path": "https://image.tmdb.org/t/p/w500/qJ2tWmrZIM9s2XZxX1O3fT6v9VJ.jpg",
+        "duration": "2h 32m",
+        "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of his greatest challenges.",
+        "deleted": false
+      },
+      {
+        "id": 4,
+        "title": "Pulp Fiction",
+        "poster_path": "https://image.tmdb.org/t/p/w500/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg",
+        "duration": "2h 34m",
+        "description": "The lives of two mob hitmen, a boxer, and others intertwine in tales of violence and redemption.",
+        "deleted": false
+      },
+      {
+        "id": 5,
+        "title": "Forrest Gump",
+        "poster_path": "https://image.tmdb.org/t/p/w500/saHP97rTPS5eLmrLQEcANmKrsFl.jpg",
+        "duration": "2h 22m",
+        "description": "Forrest Gump, a man with a low IQ, recounts the early years of his life when he found himself in the middle of key historical events.",
+        "deleted": false
+      },
+      {
+        "id": 6,
+        "title": "Fight Club",
+        "poster_path": "https://image.tmdb.org/t/p/w500/a26cQPRhJPX6GbWfQbvZdrrp9j9.jpg",
+        "duration": "2h 19m",
+        "description": "An insomniac office worker and a soap maker form an underground fight club that evolves into something much more.",
+        "deleted": false
+      },
+      {
+        "id": 7,
+        "title": "Inception",
+        "poster_path": "https://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg",
+        "duration": "2h 28m",
+        "description": "A thief who steals corporate secrets through dream-sharing technology is given a task to plant an idea into the mind of a CEO.",
+        "deleted": false
+      },
+      {
+        "id": 8,
+        "title": "The Matrix",
+        "poster_path": "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
+        "duration": "2h 16m",
+        "description": "A computer hacker learns the truth about his reality and his role in the war against its controllers.",
+        "deleted": false
+      },
+      {
+        "id": 9,
+        "title": "Interstellar",
+        "poster_path": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+        "duration": "2h 49m",
+        "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+        "deleted": false
+      },
+      {
+        "id": 10,
+        "title": "Gladiator",
+        "poster_path": "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg",
+        "duration": "2h 35m",
+        "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+        "deleted": false
+      }
+    ]
+  }
+  

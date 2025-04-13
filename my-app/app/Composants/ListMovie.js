@@ -1,17 +1,21 @@
-//List Movie
+// app/Composants/ListMovie.js
 import React from "react";
 import MovieCard from "./MovieCard";
 
-function ListMovie({ movies }) {
-    const filteredMovies = movies.filter((movie) => !movie.deleted);
+export default function ListMovie({ movies }) {
+  if (!Array.isArray(movies)) {
+    return <p>Chargement des films...</p>;
+  }
 
-    return (
-        <div className="movie-list">
-            {filteredMovies.map((movie) => (
-                <MovieCard key={movie.id} movie={movie} />
-            ))}
-        </div>
-    );
+  const filteredMovies = movies.filter((movie) => !movie.deleted);
+
+  return (
+    <div className="movie-list">
+      {filteredMovies.map((movie) => (
+        <MovieCard key={movie.id} movie={movie} />
+      ))}
+    </div>
+  );
 }
 
-export default ListMovie;
+
