@@ -1,30 +1,6 @@
 {
   "movies": [
     {
-      "id": "1",
-      "title": "The Shawshank Redemption",
-      "poster_path": "https://image.tmdb.org/t/p/w500/tmU7geKVybMWFQMYWUfN1YQaYd2.jpg",
-      "duration": "2h 22m",
-      "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-      "deleted": false
-    },
-    {
-      "id": "2",
-      "title": "The Godfather",
-      "poster_path": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolX1tVrjBB.jpg",
-      "duration": "2h 55m",
-      "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
-      "deleted": false
-    },
-    {
-      "id": "3",
-      "title": "The Dark Knight",
-      "poster_path": "https://image.tmdb.org/t/p/w500/qJ2tWmrZIM9s2XZxX1O3fT6v9VJ.jpg",
-      "duration": "2h 32m",
-      "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of his greatest challenges.",
-      "deleted": false
-    },
-    {
       "id": "4",
       "title": "Pulp Fiction",
       "poster_path": "https://image.tmdb.org/t/p/w500/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg",
@@ -78,28 +54,15 @@
       "poster_path": "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg",
       "duration": "2h 35m",
       "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
-      "deleted": false
-    },
-    {
-      "id": "24a5",
-      "title": "Sonic Boom",
-      "posterPath": "https://th.bing.com/th/id/OIP.IRfu12M8n030Q0SZMjcGYQAAAA?w=448&h=252&rs=1&pid=ImgDetMain",
-      "duration": "2h:30",
-      "description": "Un hérison rapide"
+      "deleted": true
     },
     {
       "id": "46f5",
       "title": "Sonic Boom",
-      "posterPath": "https://th.bing.com/th/id/OIP.IRfu12M8n030Q0SZMjcGYQAAAA?w=448&h=252&rs=1&pid=ImgDetMain",
+      "poster_path": "https://i.ytimg.com/vi/grHt7c25jnM/maxresdefault.jpg",
       "duration": "2h:30",
-      "description": "Un hérison rapide"
-    },
-    {
-      "id": "963b",
-      "title": "Sonic Boom",
-      "posterPath": "https://th.bing.com/th/id/OIP.IRfu12M8n030Q0SZMjcGYQAAAA?w=448&h=252&rs=1&pid=ImgDetMain",
-      "duration": "2h:30",
-      "description": "sonic rapide"
+      "description": "Un hérison rapide",
+      "deleted": true
     }
   ]
 }

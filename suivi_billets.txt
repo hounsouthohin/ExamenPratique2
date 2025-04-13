@@ -1,4 +1,15 @@
-Inscrire les billets au format suivant:
-    Billet #XX = status
-Exemple:
-    Billet #03 = complété
+
+
+Billet 22 = complété
+Billet 23 = complété
+Billet 24 = complété
+Billet 25 = complété
+Billet 26 = complété
+Billet 27 = complété
+Billet 28 = complété
+Billet 29 = complété
+Billet 30 = complété
+Billet 31 = complété
+Billet 32 = complété
+Billet 33 = complété
+Billet 34 = complété

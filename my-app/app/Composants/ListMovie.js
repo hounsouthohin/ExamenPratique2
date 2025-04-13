@@ -1,24 +1,30 @@
-import React from "react";
+"use client";
+
+import React, { useEffect, useState } from "react";
 import MovieCard from "./MovieCard";
 
 export default function ListMovie({ movies }) {
-  if (!Array.isArray(movies)) {
-    return <p className="text-center mt-5">Chargement des films...</p>;
-  }
+  const [movieList, setMovieList] = useState([]);
 
-  const filteredMovies = movies.filter((movie) => !movie.deleted);
+  useEffect(() => {
+    if (Array.isArray(movies)) {
+      const filtered = movies.filter((movie) => !movie.deleted);
+      setMovieList(filtered);
+    }
+  }, [movies]);
+
+  const handleDelete = (id) => {
+    setMovieList((prev) => prev.filter((movie) => movie.id !== id));
+  };
 
   return (
-    <div className="container mt-4">
-      <div className="row">
-        {filteredMovies.map((movie) => (
-          <div key={movie.id} className="col-md-4 mb-4">
-            <MovieCard movie={movie} />
-          </div>
+    
+      <div className="row mb-4 row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        {movieList.map((movie) => (
+        <MovieCard key={movie.id} movie={movie} onDelete={handleDelete} />
         ))}
       </div>
-    </div>
+  
   );
 }
-
 

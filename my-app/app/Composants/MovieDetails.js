@@ -1,9 +1,14 @@
 "use client";
 
-import React from "react";
+import React, { useEffect } from "react";
 
 export default function MovieDetails({ movie }) {
   if (!movie) return <p>Chargement du film...</p>;
+
+  useEffect(() => {
+    // Sauvegarde du film consulté dans le localStorage
+    localStorage.setItem("lastConsultedMovie", JSON.stringify(movie));
+  }, [movie]);
 
   return (
     <div className="container mt-4">
@@ -36,4 +41,3 @@ export default function MovieDetails({ movie }) {
     </div>
   );
 }
-
